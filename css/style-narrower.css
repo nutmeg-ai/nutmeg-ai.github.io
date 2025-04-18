@@ -5,10 +5,10 @@
 		font-size: 12pt;
 	}
 
-	#skel-layers-wrapper {
+	/* #skel-layers-wrapper {
 		padding-top: 44px;
 	}
-
+*/
 	header.major h2 {
 		font-size: 1.8em;
 	}
@@ -17,12 +17,12 @@
 		font-size: 1em;
 	}
 
-/* Form */
+/* Form 
 
 	form {
 		width: 100%;
 	}
-
+*/
 /* Header */
 
 	#header {
@@ -162,7 +162,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #c72e6a;
+			background: #58BAFF;
 		}
 
 		input[type="submit"].alt,
@@ -192,7 +192,7 @@
 		input[type="reset"].medium,
 		input[type="button"].medium,
 		.button.medium {
-			padding: 0.80em 2em;
+			padding: 0.80em 1em;
 			font-size: 1.2em;
 		}
 

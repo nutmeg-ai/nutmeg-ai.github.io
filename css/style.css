@@ -481,6 +481,7 @@
 /* Wrapper */
 
 	.wrapper.style1 {
+		height: 90vh;
 		padding-top: 10em;
 		padding-bottom: 2em;
 		background: url(../images/bg.png) no-repeat center top;
