@@ -5,12 +5,11 @@
 /* Basic */
 
 	body {
-		display: flex;
 		background: #0f1116;
 	}
 .image.fit img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 	body, span, input, select, textarea {
 		color: #555555;
@@ -198,11 +197,11 @@
 	}
 
 		.image.fit {
-			display: block;
+			display:block;
 		}
 
 			.image.fit img {
-				display: block;
+				display:block;
 				width: 100%;
 			}
 
@@ -212,7 +211,7 @@
 		}
 
 			.image.feature img {
-				display: block;
+				display: flex;
 				width: 100%;
 			}
 
@@ -384,8 +383,6 @@
 
 	table {
 		width: 100%;
-		display: flex;
-		flex-direction: row;
 	}
 
 		table.default {
@@ -484,12 +481,13 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-	display: flex;
-	flex-direction: row;
-	padding-top: 15em;
-	padding-bottom: 3em;
-	background: url(../images/bg.png) no-repeat center center;
-	background-size: cover;
+		padding-top: 10em;
+		padding-bottom: 2em;
+		background: url(../images/bg.png) no-repeat center top;
+		background-size: cover;
+		background-attachment: fixed;
+		-webkit-backface-visibility: hidden;
+		-webkit-transform: translateZ(0);
 	}
 
 	.wrapper.style2 {
@@ -501,8 +499,6 @@
 /* Header */
 
 	#header {
-		display: flex;
-		flex-direction: row;
 		position: fixed;
 		top: 0;
 		left: 0;
